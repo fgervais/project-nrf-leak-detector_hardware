@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name 22R686MC)(type KiCad)(uri ${KIPRJMOD}/kicad-library/22R686MC)(options "")(descr ""))
-  (lib (name PKM13EPYH4000-A0)(type KiCad)(uri ${KIPRJMOD}/kicad-library/PKM13EPYH4000-A0)(options "")(descr ""))
-  (lib (name CUS10S30,H3F)(type KiCad)(uri ${KIPRJMOD}/kicad-library/CUS10S30,H3F)(options "")(descr ""))
-  (lib (name TSM-102-01-L-SH-TR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/TSM-102-01-L-SH-TR)(options "")(descr ""))
-)

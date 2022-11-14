@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name 22R686MC)(type Legacy)(uri ${KIPRJMOD}/kicad-library/22R686MC/22R686MC.lib)(options "")(descr ""))
-  (lib (name PKM13EPYH4000-A0)(type Legacy)(uri ${KIPRJMOD}/kicad-library/PKM13EPYH4000-A0/PKM13EPYH4000-A0.lib)(options "")(descr ""))
-  (lib (name TSM-102-01-L-SH-TR)(type Legacy)(uri ${KIPRJMOD}/kicad-library/TSM-102-01-L-SH-TR/TSM-102-01-L-SH-TR.lib)(options "")(descr ""))
-)
