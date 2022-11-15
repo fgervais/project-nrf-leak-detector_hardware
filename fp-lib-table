@@ -4,4 +4,6 @@
   (lib (name TZ022101B000G)(type KiCad)(uri ${KIPRJMOD}/kicad-library/TZ022101B000G/TZ022101B000G.pretty)(options "")(descr ""))
   (lib (name MS88SF3_NRF52840)(type KiCad)(uri ${KIPRJMOD}/kicad-library/MS88SF3_NRF52840)(options "")(descr ""))
   (lib (name 435151014824)(type KiCad)(uri ${KIPRJMOD}/kicad-library/435151014824)(options "")(descr ""))
+  (lib (name CUS10S30,H3F)(type KiCad)(uri ${KIPRJMOD}/kicad-library/CUS10S30,H3F)(options "")(descr ""))
+  (lib (name 22R686MC)(type KiCad)(uri ${KIPRJMOD}/kicad-library/22R686MC)(options "")(descr ""))
 )

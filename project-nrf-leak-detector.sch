@@ -77,13 +77,13 @@ F 3 "~" H 8700 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 1350 6600 0    50   ~ 0
-RESET
+~RESET
 $Comp
 L Device:R R1
 U 1 1 630544FE
 P 1850 6350
 F 0 "R1" H 1920 6396 50  0000 L CNN
-F 1 "5.1k" H 1920 6305 50  0000 L CNN
+F 1 "10k" H 1920 6305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 6350 50  0001 C CNN
 F 3 "~" H 1850 6350 50  0001 C CNN
 	1    1850 6350
@@ -159,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 6600 3250 7100
 Text Label 6450 4550 2    50   ~ 0
-RESET
+~RESET
 Wire Wire Line
 	6450 4550 6100 4550
 $Comp
@@ -430,30 +430,14 @@ Text Label 3950 4400 2    50   ~ 0
 P1.13
 Wire Wire Line
 	3950 4400 3600 4400
-Text Label 850  2500 0    50   ~ 0
-AIN0
+Text Label 650  2500 0    50   ~ 0
+WATER_PROBE
 Wire Wire Line
-	850  2500 1200 2500
-Text Label 3950 2700 2    50   ~ 0
-AIN5
+	650  2500 1200 2500
+Text Label 650  2700 0    50   ~ 0
+VBATT_PROBE
 Wire Wire Line
-	3950 2700 3600 2700
-Text Label 850  2800 0    50   ~ 0
-AIN3
-Wire Wire Line
-	850  2800 1200 2800
-Text Label 850  2700 0    50   ~ 0
-AIN2
-Wire Wire Line
-	850  2700 1200 2700
-Text Label 850  3300 0    50   ~ 0
-NFC2
-Wire Wire Line
-	850  3300 1200 3300
-Text Label 850  3200 0    50   ~ 0
-NFC1
-Wire Wire Line
-	850  3200 1200 3200
+	650  2700 1200 2700
 Text Label 3950 2300 2    50   ~ 0
 P0.25
 Wire Wire Line
@@ -483,7 +467,7 @@ D_N
 Text Label 850  4400 0    50   ~ 0
 D_P
 Text Label 850  4100 0    50   ~ 0
-RESET
+~RESET
 Wire Wire Line
 	850  4100 1200 4100
 Wire Wire Line
@@ -494,10 +478,10 @@ Text Label 850  3800 0    50   ~ 0
 P0.15
 Wire Wire Line
 	850  3800 1200 3800
-Text Label 850  3600 0    50   ~ 0
-P0.13
+Text Label 850  2900 0    50   ~ 0
+BUZZER
 Wire Wire Line
-	850  3600 1200 3600
+	850  2900 1200 2900
 Text Label 850  4200 0    50   ~ 0
 P0.19
 Wire Wire Line
@@ -546,14 +530,9 @@ F 3 "~" H 7650 950 50  0001 C CNN
 	1    7650 950 
 	1    0    0    -1  
 $EndComp
-Text Label 850  2600 0    50   ~ 0
-AIN1
-Wire Wire Line
-	850  2600 1200 2600
 NoConn ~ 1200 1800
 NoConn ~ 1200 2300
 NoConn ~ 1200 2400
-NoConn ~ 1200 2900
 NoConn ~ 1200 3000
 NoConn ~ 1200 3100
 NoConn ~ 1200 3400
@@ -562,7 +541,6 @@ NoConn ~ 1200 3700
 NoConn ~ 1200 3900
 NoConn ~ 3600 2400
 NoConn ~ 3600 2500
-NoConn ~ 3600 2600
 NoConn ~ 3600 2800
 NoConn ~ 3600 2900
 NoConn ~ 3600 3100
@@ -735,4 +713,73 @@ F 7 "Manufacturer Recommendations" H 8550 3300 50  0001 L BNN "STANDARD"
 	1    8450 2800
 	1    0    0    -1  
 $EndComp
+Text Notes 7050 3750 0    50   ~ 0
+Battery Voltage Reading
+Text Label 7200 4100 0    50   ~ 0
+VBATT_PROBE
+Wire Wire Line
+	7750 4100 7200 4100
+Text Label 9600 2700 0    50   ~ 0
+WATER_PROBE
+Wire Wire Line
+	9600 2700 10150 2700
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 6387FC80
+P 5450 1900
+F 0 "Q?" H 5655 1900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 5654 1855 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 5650 2000 50  0001 C CNN
+F 3 "~" H 5450 1900 50  0001 C CNN
+	1    5450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 6388212A
+P 5450 2550
+F 0 "D?" H 5450 2675 50  0000 C CNN
+F 1 "D_Schottky" H 5450 2676 50  0001 C CNN
+F 2 "CUS10S30,H3F:DIO_CUS520,H3F" H 5450 2550 50  0001 C CNN
+F 3 "~" H 5450 2550 50  0001 C CNN
+	1    5450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 638880E9
+P 6000 2400
+F 0 "L?" H 6053 2446 50  0000 L CNN
+F 1 "L" H 6053 2355 50  0000 L CNN
+F 2 "22R686MC:INDP7870X750" H 6000 2400 50  0001 C CNN
+F 3 "~" H 6000 2400 50  0001 C CNN
+	1    6000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6388DC50
+P 4950 2150
+F 0 "R?" H 5020 2196 50  0000 L CNN
+F 1 "10k" H 5020 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 2150 50  0001 C CNN
+F 3 "~" H 4950 2150 50  0001 C CNN
+	1    4950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63892E4C
+P 4950 2450
+F 0 "#PWR?" H 4950 2200 50  0001 C CNN
+F 1 "GND" H 4955 2277 50  0000 C CNN
+F 2 "" H 4950 2450 50  0001 C CNN
+F 3 "" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	1    0    0    -1  
+$EndComp
+Text Label 4800 1650 0    50   ~ 0
+BUZZER
+Wire Wire Line
+	4800 1650 5150 1650
 $EndSCHEMATC
