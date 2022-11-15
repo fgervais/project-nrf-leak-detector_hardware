@@ -1,3 +1,7 @@
 (fp_lib_table
   (lib (name PKM13EPYH4000-A0)(type KiCad)(uri ${KIPRJMOD}/kicad-library/PKM13EPYH4000-A0)(options "")(descr ""))
+  (lib (name BK-5058-SM)(type KiCad)(uri ${KIPRJMOD}/kicad-library/BK-5058-SM)(options "")(descr ""))
+  (lib (name TZ022101B000G)(type KiCad)(uri ${KIPRJMOD}/kicad-library/TZ022101B000G/TZ022101B000G.pretty)(options "")(descr ""))
+  (lib (name MS88SF3_NRF52840)(type KiCad)(uri ${KIPRJMOD}/kicad-library/MS88SF3_NRF52840)(options "")(descr ""))
+  (lib (name 435151014824)(type KiCad)(uri ${KIPRJMOD}/kicad-library/435151014824)(options "")(descr ""))
 )

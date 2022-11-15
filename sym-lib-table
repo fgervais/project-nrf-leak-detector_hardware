@@ -1,3 +1,8 @@
 (sym_lib_table
   (lib (name PKM13EPYH4000-A0)(type Legacy)(uri ${KIPRJMOD}/kicad-library/PKM13EPYH4000-A0/PKM13EPYH4000-A0.lib)(options "")(descr ""))
+  (lib (name BK-5058-SM)(type Legacy)(uri ${KIPRJMOD}/kicad-library/BK-5058-SM/BK-5058-SM.lib)(options "")(descr ""))
+  (lib (name MS88SF3_NRF52840)(type Legacy)(uri ${KIPRJMOD}/kicad-library/MS88SF3_NRF52840/MS88SF3_NRF52840.lib)(options "")(descr ""))
+  (lib (name 435151014824)(type Legacy)(uri ${KIPRJMOD}/kicad-library/435151014824/435151014824.lib)(options "")(descr ""))
+  (lib (name USB4105-GF-A)(type Legacy)(uri /home/fgervais/personal/project-MS88SF3-breakout/hardware/USB4105-GF-A.lib)(options "")(descr ""))
+  (lib (name S2B-PH-SM4-TB_LF__SN_)(type Legacy)(uri /home/fgervais/personal/project-MS88SF3-breakout/hardware/S2B-PH-SM4-TB_LF__SN_.lib)(options "")(descr ""))
 )
