@@ -698,6 +698,11 @@
       (net 11 /WATER_PROBE))
     (pad "" np_thru_hole circle (at 4.5 0 90) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -4.5 0 90) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
+    (model "${KIPRJMOD}/kicad-library/TZ022101B000G/691508110302 (rev1).stp"
+      (offset (xyz 0 0 4.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -180))
+    )
   )
 
   (module Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD (layer F.Cu) (tedit 59FED6E3) (tstamp 63744D3A)
