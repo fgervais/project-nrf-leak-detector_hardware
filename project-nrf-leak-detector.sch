@@ -294,10 +294,6 @@ Wire Wire Line
 NoConn ~ 5600 4450
 Wire Wire Line
 	6100 4450 6450 4450
-Text Label 650  2500 0    50   ~ 0
-WATER_PROBE
-Wire Wire Line
-	650  2500 1200 2500
 Text Label 850  4100 0    50   ~ 0
 ~RESET
 Wire Wire Line
@@ -306,10 +302,8 @@ Wire Wire Line
 	850  2000 1200 2000
 Wire Wire Line
 	850  2100 1200 2100
-Text Label 850  2900 0    50   ~ 0
+Text Label 650  2900 0    50   ~ 0
 BUZZER
-Wire Wire Line
-	850  2900 1200 2900
 Wire Wire Line
 	8650 1500 8650 1550
 Wire Wire Line
@@ -632,12 +626,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 1950 5850 2050
 NoConn ~ 1200 2600
-NoConn ~ 1200 2700
 NoConn ~ 1200 2800
 NoConn ~ 1200 3200
 NoConn ~ 1200 3300
 NoConn ~ 1200 3800
-NoConn ~ 1200 4200
 NoConn ~ 1200 4400
 NoConn ~ 1200 4500
 NoConn ~ 3600 1500
@@ -675,4 +667,12 @@ Wire Wire Line
 	7550 1100 7550 1250
 Wire Wire Line
 	7550 1650 7550 1800
+NoConn ~ 1200 4200
+Wire Wire Line
+	650  2700 1200 2700
+Text Label 650  2700 0    50   ~ 0
+WATER_PROBE
+NoConn ~ 1200 2500
+Wire Wire Line
+	650  2900 1200 2900
 $EndSCHEMATC
