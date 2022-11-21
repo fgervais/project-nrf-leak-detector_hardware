@@ -7,4 +7,5 @@
   (lib (name CUS10S30,H3F)(type KiCad)(uri ${KIPRJMOD}/kicad-library/CUS10S30,H3F)(options "")(descr ""))
   (lib (name 22R686MC)(type KiCad)(uri ${KIPRJMOD}/kicad-library/22R686MC)(options "")(descr ""))
   (lib (name BK-912)(type KiCad)(uri ${KIPRJMOD}/kicad-library/BK-912)(options "")(descr ""))
+  (lib (name project-nrf-leak-detector_hardware)(type KiCad)(uri /home/fgervais/personal/project-nrf-leak-detector_hardware)(options "")(descr ""))
 )
