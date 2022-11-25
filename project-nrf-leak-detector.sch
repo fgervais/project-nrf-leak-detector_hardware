@@ -94,8 +94,8 @@ Wire Wire Line
 Text Label 3950 3100 2    50   ~ 0
 TX
 Wire Wire Line
-	3950 2300 3600 2300
-Text Label 3950 2300 2    50   ~ 0
+	3950 2200 3600 2200
+Text Label 3950 2200 2    50   ~ 0
 RX
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
@@ -638,7 +638,7 @@ NoConn ~ 3600 1800
 NoConn ~ 3600 1900
 NoConn ~ 3600 2000
 NoConn ~ 3600 2100
-NoConn ~ 3600 2200
+NoConn ~ 3600 2300
 NoConn ~ 3600 2600
 NoConn ~ 3600 2700
 NoConn ~ 3600 4100
