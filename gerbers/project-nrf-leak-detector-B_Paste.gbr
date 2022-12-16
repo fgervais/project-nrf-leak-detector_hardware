@@ -1,0 +1,24 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,5.1.7-a382d34a8~88~ubuntu18.04.1*%
+%TF.CreationDate,2022-12-15T19:41:17-05:00*%
+%TF.ProjectId,project-nrf-leak-detector,70726f6a-6563-4742-9d6e-72662d6c6561,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.1.7-a382d34a8~88~ubuntu18.04.1) date 2022-12-15 19:41:17*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,17.780000*%
+%ADD11R,2.790000X5.080000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,BT1*%
+X58200000Y-50700000D03*
+D11*
+X69185000Y-50700000D03*
+X47215000Y-50700000D03*
+%TD*%
+M02*
