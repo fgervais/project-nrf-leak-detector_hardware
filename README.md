@@ -1,5 +1,8 @@
 # Leak Detector, revision 3
 
+Any two conductors can be connected to the screw terminals and the alarm will 
+start if water shorts them out.
+
 - [Complete Project](#complete-project)
 - [PCB](#pcb)
 - [Power Consumption](#power-consumption)
