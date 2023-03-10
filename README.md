@@ -1,9 +1,9 @@
 # Leak Detector, revision 3
 
-[Complete Project](#complete-project)
-[PCB](#pcb)
-[Power Consumption](#power-consumption)
-[Firmware](#firmware)
+- [Complete Project](#complete-project)
+- [PCB](#pcb)
+- [Power Consumption](#power-consumption)
+- [Firmware](#firmware)
 
 ## Complete Project
 
