@@ -5,6 +5,7 @@ start if water shorts them out.
 
 - [Complete Project](#complete-project)
 - [PCB](#pcb)
+- [Water Probe](#water-probe)
 - [Power Consumption](#power-consumption)
 - [Firmware](#firmware)
 
@@ -27,6 +28,10 @@ start if water shorts them out.
 ### Back side
 
 ![Back](assets/img/IMG_1466.jpg)
+
+## Water Probe
+
+![Water Probe](assets/img/IMG_1523.jpg)
 
 ## Power Consumption
 
