@@ -69,9 +69,9 @@ https://github.com/fgervais/project-nrf-leak-detector
 ## Notifications
 
 When a leak is detected, the information is sent to Home Assistant tough MQTT
-which sends notifications to computers and mobile devices.
+which then sends a notification to computers and mobile devices.
 
 A notification is also sent when the leak detector is reset and rearmed to let
-the user know that the leak monitoring is functioning correctly.
+the user know that the leak monitoring is functioning properly.
 
-![Notifications](assets/img/notifications.jpg)
+<img src="assets/img/notifications.jpg" alt="notification" width="50%"/>
