@@ -74,7 +74,10 @@ which then sends a notification to computers and mobile devices.
 A notification is also sent when the leak detector is reset and rearmed to let
 the user know that the leak monitoring is ready.
 
-Note:
+<img src="assets/img/notifications.jpg" alt="notification" width="50%"/>
+
+### Alarm Note
+
 The chain of events from leak detection to a nofication being delivered is
 pretty long and a lot could go wrong which would prevent the notification from
 being received.
@@ -86,5 +89,3 @@ notification delivery process.
 For this reason, the alarm is setup first before any networking work is started.
 Once started, the alarm is entirely handled by the hardware PWM module and so
 even if a problem happens the alarm will still be heard.
-
-<img src="assets/img/notifications.jpg" alt="notification" width="50%"/>
