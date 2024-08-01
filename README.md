@@ -72,6 +72,6 @@ When a leak is detected, the information is sent to Home Assistant tough MQTT
 which then sends a notification to computers and mobile devices.
 
 A notification is also sent when the leak detector is reset and rearmed to let
-the user know that the leak monitoring is functioning properly.
+the user know that the leak monitoring is ready.
 
 <img src="assets/img/notifications.jpg" alt="notification" width="50%"/>
